@@ -1,0 +1,75 @@
+body {
+    background-color: black;
+    margin: 50px;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100%;
+    display: flex;
+    flex-direction: column; /*every container in a new line*/
+}
+
+h1, h2 {
+    font-family: Verdana, Geneva, sans-serif;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: small-caps;
+    text-transform: uppercase;
+    color: white;
+    text-align: left;
+}
+
+p {
+    font-size: smaller;
+    font-family: Verdana, Geneva, sans-serif;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    color: white;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    gap: 10%;
+}
+
+.containerSkills {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    gap: 5%;
+    max-width: 100%;
+}
+
+.item {
+    width: 100%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+
+.itemSkill {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.skillheader {
+    width: 100%; 
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    text-align: left;
+}
+
+.image-container img {
+    height: 100%; 
+    width: 100%; 
+    display: block;
+    object-fit: contain;
+}
